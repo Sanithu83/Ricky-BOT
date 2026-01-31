@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://chatgpt.com/backend-api/estuary/content?id=file_00000000801071fd8dd74f79c5eedbdf&ts=491580&p=fs&cid=1&sig=80a75a0908bcf72ed24291160d03385c0531b7e3c3e39a2f71668658aa369dce&v=0",
+                url: "https://raw.githubusercontent.com/Sanithu83/BOT-HELPER/refs/heads/main/Ricky%20BOT%20image%20Owner%20(SANITHU).png",
               },
               caption: sid,
             });
@@ -129,5 +129,6 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
